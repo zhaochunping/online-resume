@@ -12,6 +12,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ONLINE_RESUME }}
           TARGET_REPO: zhaochunping/online-resume
-          TARGET_BRANCH: dev
+          TARGET_BRANCH: dev_pages
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist
